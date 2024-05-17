@@ -169,10 +169,12 @@ function setupEventListeners() {
     selectors.dataSettingsOverlay.open = false;
   });
 
+  showMoreButton();
   // 'Show more' button
   selectors.listButton.addEventListener("click", () => {
     page += 1;
     BookPreview.renderBooks(matches, BOOKS_PER_PAGE);
+    showMoreButton();
   });
 
   // Book previews
@@ -203,7 +205,7 @@ function setupEventListeners() {
     }
   });
 }
-
+showMoreButton();
 // ******************* INITIALIZE APPLICATION ******************* //
 
 document.addEventListener("DOMContentLoaded", function () {
