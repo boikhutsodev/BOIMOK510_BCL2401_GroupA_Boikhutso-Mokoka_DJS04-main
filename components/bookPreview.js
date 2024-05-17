@@ -1,5 +1,4 @@
 import { authors } from "../data.js";
-import { selectors } from "../scripts.js";
 
 export class BookPreview extends HTMLElement {
   constructor() {
