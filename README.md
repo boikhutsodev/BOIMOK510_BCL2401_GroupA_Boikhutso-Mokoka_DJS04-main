@@ -23,12 +23,12 @@ To run this project, you need a modern web browser that supports ES6 features.
 
 ```bash
 git clone https://github.com/mariusmokoka/BOIMOK510_BCL2401_GroupA_Boikhutso-Mokoka_DJS04-main.git
+```
 
 ## Challenges
 
-* Understanding the Structure Encapsulation.
-* Understanding the use of the DOM.
-* Understanding the use of the Fetch API.
-* Learning how to debug.
-* Having a solid foundation.
-```
+- Understanding the Structure Encapsulation.
+- Understanding the use of the DOM.
+- Understanding the use of the Fetch API.
+- Learning how to debug.
+- Having a solid foundation.
